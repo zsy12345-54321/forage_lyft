@@ -1,3 +1,6 @@
-from engine.Serviceable import Serviceable
-class Battery(Serviceable):
-    pass
+from abc import ABC
+
+
+class Battery(ABC):
+    def needs_service(self):
+        pass
