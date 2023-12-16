@@ -1,4 +1,6 @@
-from engine.Serviceable import Serviceable
+from abc import ABC
 
-class Engine(Serviceable):
-    pass
+
+class Engine(ABC):
+    def needs_service(self):
+        pass
