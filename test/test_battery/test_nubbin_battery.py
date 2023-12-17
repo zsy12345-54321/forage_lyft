@@ -1,6 +1,6 @@
 import unittest
-from datetime import date
 
+from datetime import date
 from battery.Nubbin_battery import NubbinBattery
 
 
